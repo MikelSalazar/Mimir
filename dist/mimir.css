@@ -1,0 +1,40 @@
+@font-face { font-family: Norse; 
+	src: url("fonts/norse/Norse.otf") format("opentype"); }
+
+@font-face { font-family: Norse; font-weight: bold; 
+	src: url("fonts/norse/Norsebold.otf") format("opentype");
+}
+
+* { margin: 0; } 
+html, body { width: 100vw; height: 100vh; ;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Mimir { width: 100%; height: 100%; position: relative; overflow: hidden; 
+	display: flex; flex-direction: column;}
+h1, h2, h3, h4 { font-family: Norse; font-weight: bold; margin-top: 2vmin;}
+.MimirHeader { width: 100%; height: 12vmin; background: #222; color: white; }
+.MimirTitle {position: absolute; left: 50%; transform: translateX(-50%);
+	user-select: none; text-align: center; font: 10vmin Norse; 
+	white-space: nowrap; margin: 1vmin;
+}
+
+.MimirButton { position: absolute; width: 12vmin; height: 12vmin;
+	border: none; background-color: #222;
+}
+#MimirMenuButton { left: 0; background-image: url("imgs/icons/menu.svg"); }
+#MimirUserButton { right: 0; background-image: url("imgs/icons/user.svg"); } 
+	
+.MimirBody { 
+	flex: 1;
+	white-space: nowrap; 
+	scroll-snap-type: both mandatory;
+	overflow: scroll hidden;
+}
+.MimirSection { position: relative; width: 100%; height: 100%; 
+	display: inline-block; scroll-snap-align: start; overflow-y: auto; 
+	white-space: normal;
+}
+
+/* Debug */
+/* .MimirSection:nth-child(1) { background-color: green;}
+.MimirSection:nth-child(2) { background-color: red;} */

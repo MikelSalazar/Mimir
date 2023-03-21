@@ -1,0 +1,138 @@
+{
+	"mimir": 0.1,
+	"parts": [
+		{
+			"id": "Intro",
+			"style": "text-align: center; font: 6vmin Norse;",
+			"items": [
+				{ "text": "Meta-Knowledge", "link": "#Meta-Knowledge" },
+				{ "text": "Vocabulary", "link": "#Vocabulary" },
+				{ "text": "Rules", "link": "#Rules" },
+				{ "text": "Expressions", "link": "#Expressions" },
+				{ "text": "Mythology", "link": "#Mythology" }
+			]
+		},
+		{
+			"id": "Meta-Knowledge",
+			"style": "text-align: center;",
+			"parts": [
+				{
+					"id": "Terms",
+					"title": "Terms",
+					"items": [
+						{ "title": "Spørsmål", "text": "Question"},
+						{ "title": "Svar", "text": "Answer"},
+						{ "title": "Infinitiv", "text": "Infinitive" },
+						{ "title": "Presens/Nåtid", "text": "Present tense" },
+						{ "title": "Entall", "text": "Singular" },
+						{ "title": "Mangetall", "text": "Plural"},
+						{ "title": "Oppgave", "text": "Exercise"}
+					]
+				},
+				{
+					"id": "Expressions",
+					"title": "Expressions",
+					"items": [
+						{ "title": "Jeg har en spørsmål", "text": "I have a question." },
+						{ "title": "Kan jeg stille et spørsmål?", "text": "Can I ask a question?" },
+						{ "title": "Hvordan uttaler du dette?", "text": "How you pronounce this?"},
+						{ "title": "Hvordan skriver du dette?", "text": "How you write this?"}
+
+					]
+				}
+			]	
+		},
+		{
+			"id": "Vocabulary",
+			"style": "text-align: center;",
+			"parts": [
+				{
+					"id": "WeekDays",
+					"title": "WeekDays",
+					"items": [
+						{ "title": { "en": "Monday", "no": "Mandag" },		"text": "The day of the <a href=\"#Mythology_Cosmology_Moon\">Moon</a>." },
+						{ "title": { "en": "Tuesday", "no": "Tirsdag" },	"text": "The day of <a href=\"#Mythology_Gods_Týr\">Tyr</a>." },
+						{ "title": { "en": "Wednesday", "no": "Onsdag" },	"text": "The day of <a href=\"#Mythology_Gods_Odin\">Odin</a>." },
+						{ "title": { "en": "Thursday", "no": "Torsdag" },	"text": "The day of <a href=\"#Mythology_Gods_Thor\">Thor</a>." },
+						{ "title": { "en": "Friday", "no": "Fredag" },		"text": "The day of <a href=\"#Mythology_Gods_Frigg\">Frigg</a>." },
+						{ "title": { "en": "Saturday", "no": "Lørdag" },	"text": "The day of vigil?." },
+						{ "title": { "en": "Sunday", "no": "Søndag" },		"text": "The day of the <a href=\"#Mythology_Cosmology_Sun\">Sun</a>." }
+					]
+					
+				}
+			]
+		},
+		{
+			"id": "Rules",
+			"style": "text-align: center;",
+			"parts": [
+				{
+					"id": "General",
+					"title": "General Rules",
+					"items": [
+						{ "title": "V2", "text": "Norwegian is a V2 language, meaning that the verb is always the second word." },
+						{ "title": "Negation", "text": "To negate a sentence, the main way is to use 'ikke' after the verb." },
+						{ "title": "No present continuous tense", "text": "The \"present simple\" tense is used for instantaneous and habitual actions." }
+					]
+				}
+			]
+		},
+		{
+			"id": "Expressions",
+			"style": "text-align: center;",
+			"parts": [
+				{
+					"id": "General",
+					"title": "General",
+					"items": [
+						{ "title": {"en": "Test", "no": "Test" } }
+					]
+				},
+				{
+					"id": "Store",
+					"title": "At the Store",
+					"items": [
+						{
+							"text": {"en": "Test", "no": "Test" }
+						}
+					]
+					
+				}
+			]
+		},
+		{
+			"id": "Mythology",
+			"style": "text-align: center;",
+			"parts": [
+				{
+					"id": "Gods",
+					"title": "Gods",
+					"items": [
+						{ "title": "Odin",		"text": "The main god in Norse mythology." },
+						{ "title": "Thor",		"text": "A hammer-wielding god associated with lightning,." },
+						{ "title": "Frigg",		"text": "The goddess of marriage, prophecy, clairvoyance and motherhood." },
+						{ "title": "Týr",		"text": "The god of war in the Norse mythology." }
+					]
+				},
+				{
+					"id": "Cosmology",
+					"title": "Cosmology",
+					"items": [
+						{ "title": "Yggdrasil",		"text": "The central celestial tree of Norse cosmology around which nine worlds exists." },
+						{ "title": "Niflheim",		"text": "The realm of Fog and Mist." },
+						{ "title": "Muspelheim",	"text": "The realm of Fire." },
+						{ "title": "Asgard",		"text": "The realm of the <a href=\"#Mythology_Gods\">Gods</a>." },
+						{ "title": "Midgard",		"text": "The realm of the Humans." },
+						{ "title": "Jotunheim",		"text": "The realm of the Giants." },
+						{ "title": "Vanaheim",		"text": "The realm of the Vanir." },
+						{ "title": "Alfheim",		"text": "The realm of the Light Elves." },
+						{ "title": "Svartalfheim",	"text": "The realm of the Dwarves." },
+						{ "title": "Helheim",		"text": "The realm of the dishonorable dead." },
+						{ "title": {"en": "Sun", "no": "Solen" },	"text": "The Sun (personified as a male figure in Germanic mythologies)." },
+						{ "title": {"en": "Moon", "no": "Månen" },	"text": "The Moon (personified as a female figure in Germanic mythologies)." }
+					]
+				}
+			]
+		}
+	]
+}
